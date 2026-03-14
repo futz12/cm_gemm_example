@@ -8,7 +8,6 @@ find_package(Vulkan REQUIRED)
 
 add_executable(vulkan_cm_gemm
     main.cpp
-    gemm_cm.comp
 )
 
 target_include_directories(vulkan_cm_gemm PRIVATE
